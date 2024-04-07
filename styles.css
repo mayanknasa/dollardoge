@@ -1,0 +1,53 @@
+@font-face {
+    font-family: SunnySpells;
+    src: url(./assets/fonts/sunnyspells-font.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: SunnySpells;
+    background-color: #bb9f34;
+    color: #000;
+    text-transform: uppercase;
+}
+.ctc{
+
+}
+.heading{
+    font-size: 50px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.main-container .top-section .image-container img{
+    width: 600px;
+    height: 600px;
+}
+.buttons-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tiles-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tiles{
+    width: 100%;
+}
