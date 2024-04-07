@@ -23,6 +23,7 @@ body{
     padding: 10px 30px;
     transition: 100ms;
     box-sizing: border-box;
+    text-transform: uppercase;
 }
 .ctc:hover{
     color: #bb9f34;
@@ -33,7 +34,7 @@ body{
     background-color: #fff;
     transition: 100ms;
 }
-.ctc a{
+a{
     text-decoration: none;
     color: #fff;
 }
@@ -48,6 +49,7 @@ body{
     align-items: center;
     margin: 0 auto;
     flex-direction: column;
+    max-width: 900px;
 }
 .main-container .top-section .image-container img{
     max-width: 600px;
@@ -80,7 +82,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 900px;
 }
 .tiles-container{
     display: flex;
@@ -89,7 +90,6 @@ body{
     text-align: center;
     align-items: center;
     flex-direction: column;
-    max-width: 900px;
     flex-wrap: wrap;
 }
 .tiles{
@@ -104,6 +104,8 @@ body{
     color: #fff;
     padding: 15px;
     margin: 0 15px 25px 15px;
+    text-align: center;
+    width: calc(100% - 60px); 
 }
 .tiles .tiles-heading{
     font-weight: 100px !important;
@@ -117,7 +119,6 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
     margin: 0 15px;
 }
 .last-section .button-section{
@@ -137,5 +138,9 @@ body{
     .main-container .top-section .image-container img{
         max-width: 400px;
         max-height: 400px;
+    }
+    .last-section .img-section img{
+        max-width: 200px;
+        max-height: 200px;
     }
   }
